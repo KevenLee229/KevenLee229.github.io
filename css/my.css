@@ -2,3 +2,9 @@
 #articleContent p { text-indent: 2em; }
 .img-item img { border-radius: 8px;border: 10px solid #fff; }
 
+
+@media only screen and (max-width: 601px) {
+    .logo-span {
+        display: none;
+    }
+}
