@@ -1,0 +1,949 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="来自520天的一封情书, HaomingLi&#39;s Blog">
+    <meta name="description" content="来自520天的一封情书  
+      
+
+
+			
+				console.error(&#34;Error: [hexo-tag-aplayer] Specified asset file not found (medias/music/def">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>来自520天的一封情书 | HaomingLi&#39;s Blog</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">HaomingLi's Blog</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-book"></i>
+            
+            <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li>
+        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
+        </a>
+    </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">HaomingLi's Blog</div>
+        <div class="logo-desc">
+            
+            AI fans
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-book"></i>
+                
+                友情链接
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        来自520天的一封情书
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 20px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/情书/" target="_blank">
+                                <span class="chip bg-color">情书</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2019-08-31
+                </div>
+
+                
+				
+				
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="来自520天的一封情书"><a href="#来自520天的一封情书" class="headerlink" title="来自520天的一封情书"></a><div style="text-align:center">来自520天的一封情书<div></div></div></h1><div align="middle"><audio controls="controls" playsinline webkit-playsinline autoplay loop>  
+    <source src="/medias/music/congqianman.mp3" type="audio/mpeg">  </audio></div>
+
+
+			<script>
+				console.error("Error: [hexo-tag-aplayer] Specified asset file not found (medias/music/default.jpg)");
+			</script>
+
+<br>
+
+<p>​       <strong>居居, 你好! 当你看到这份信时, 时间已经来到了520天了!</strong> </p>
+<p><img src="love-01.jpg" alt></p>
+<h2 id="缘…"><a href="#缘…" class="headerlink" title="缘…"></a>缘…</h2><p>​        回想起来, 时间真的过得悄无声息. 从我们第一次确认关系的3月28日, 到我8月底跨洋到温哥华留学, 我们待在一起将近半年, 而再到如今, 除了在台湾一起游玩的一周外, 我们竟然不知不觉已跨国恋一年多了. </p>
+<p>​        对一些人来说, 比如James, 跨国一年实在是不可思议, 因为他当时只坚持了两周, 而我们的坚持的时间已经足够他发展37.142857段跨国恋了. 不过, 或许用坚持二字形容不太切当, 因为我觉得我们并没有因为距离遥远而产生太多的误解与忍耐, 而更多是对重逢的渴望. 虽然可能因为大多时候, 我们都需要把时间花在学业上, 所以彼此都能理解对方的境遇, 也许才没有过多的争吵. 但是, 能够理解体谅对方本来就是在相处中很宝贵的能力了. 尽管我们还有比跨国恋更大更多的挑战在前面, 希望我们在未来中能够一直彼此体谅理解对方.</p>
+<p>​        说起来, 我们一直没深入谈入彼此内心深入的想法, 日常聊天也大多流于琐碎. 虽然这也囿于时差, 但没有过一次深入心扉的交谈也未免太过可惜. 其实在定这个标题的时候, 我思考了很久, 这到底算是一封情书, 亦或一段对爱情的表白呢? 我对爱情两字似乎有非常深刻却又模糊的定义, 它在我心中似乎过于神圣, 而我又深深觉得自己缺乏爱的能力. </p>
+<p>​        我的朋友圈有一对情侣, 大概比我们早一点确认关系, 男生是我这届的,而女生似乎比你大一届. 和我们很不一样, 他/她们几乎一直在喧嚣的朋友圈秀着恩爱, 毫无顾忌地在朋友圈用着宝贝之类的昵称, 如今似乎已经一起在新加坡了. 他/她们大概可以说是现代式爱情的典型了. 但是, 内心而言, 我大概是做不到这点, 甚至我内心是倾向于把这种现代爱情故事称作为”恋爱”, 而不是”爱情”. </p>
+<p>​        我曾经就爱情和甘霖有过一段现在回想起来很幼稚的讨论. 我大三从丹麦交换回来的那一学期, 刚好甘霖的爱情危机爆发了, 我在听他倾诉的时候和他讨论起彼此的爱情观. 他说, 你看中国的离婚率在”节节高升”, 而所谓的开放的西方的离婚率却反而没有中国高(严格而言, 这点我是觉得需要进一步细分证明的), 是因为他/她年轻的时候就会频繁约会, 经历过各色男男女女后就知道自己喜欢的是什么类型的了, 因此一旦决定结婚的时候, 就基本是确认了是自己的Mr. / Ms. Right了. 所以, 他就鼓吹着让我尽早尽快交女朋友.</p>
+<p>​        而我当时的反驳的是, 如果遇到对的人是一个抛硬币的概率问题, 有人通过多次抛硬币, 熟悉抛射的角度,力度以及外界的风向, 抛出了自己想要的结果, 但是, 我是那种可以对硬币建模的人, 通过对硬币影响因素理性建模, 直接抛出我的结果. 他无语以对.</p>
+<blockquote>
+<p>从前的日色变得慢 ; 车，马，邮件都慢 ; 一生只够爱一个人</p>
+<div style="font-weight:bold;text-align:right">——木心<从前慢></从前慢></div>
+</blockquote>
+<p>​        但现在回想起来, 或许我的当时对自己的观念还是太流于表面了. 虽然我不否认, 中国离婚率高可能是由于迫于父母或者社会压力进行的无爱的婚姻, 而过去传统的观念的束缚才是过往离婚率低的保证. 到了如今, 正是现代爱情观念的引入, 才使得离婚率一下子升高. 但是, 我对那种多发展恋爱关系以发现心中所爱的观念的排斥, 却并不是因为那个可笑的””硬币”理论, 而恰恰相反, 我对”硬币”的认定, 是我的排斥的体现. </p>
+<p>​        我想, 大概是从小到大的环境潜移默化的形成了我对爱情传统的认知. 我心中是不认同那种多发展恋爱关系而发现自己所爱的观念, 相反, 还不如说多段恋爱关系可能形成了一个不成熟的人的爱情观念, 而稳固的爱情观念却不需要通过恋爱来发展自己. 而我的爱情观, 大多源自传统文学影视作品的塑造吧.  大多对爱情的构建, 大抵有两种,要么是相敬如宾, 心神相交的心有灵犀, 比如演绎凤求凰传奇的司马相如与卓文君, 要么就是莫问前程, 抛开一切的轰轰烈烈, 比如抛开社会阻挠的罗密欧与朱丽叶, 梁山伯与祝英台. 虽然现实可能远比故事残酷, 司马相如可能是为了卓文君的家世,  鸳鸯大抵只是露水姻缘, 但无论如何, 不论是”执子之手,与子偕老”, “山无棱,天地合”, 亦或”破镜重圆”, “梁祝化蝶”都需要经历过某种限制的洗礼与考验. “心有灵犀”突破了心理的封锁, “咫尺天涯”超越了距离的限制, “白头偕老”经过了时间的洗礼, “至死不渝”承受了死亡的考验. 这些爱情的词语,诗句以及故事, 之所以能沿着岁月流传, 大抵是这是人类对很多客观不完美的克服. </p>
+<p>​        这也是我曾经对恋爱恐惧的原因, 现在的恋爱, 大多都像是郭敬明般青春文学笔下的构建, 哪怕是再多的不完美, 也被唯美的笔法给掩盖, 让读者伤感得沉迷, 流于爱情的开始阶段. 大家都想着甜甜蜜蜜, 哪怕是分手的悲伤, 也是沉浸在自我伤感的唯美情绪, 却没有人去打破这些客观不完美, 这确实需要双方的努力的, 而并不是说,  只要你不断尝试, 这世界总有人适合你. 我怕的就是, 当爱情流于感受, 缺乏思考与考验, 就犹如泡沫, 一碰即破. 现代爱情, 可能就是能够同乐, 不能痛苦, 看遍妖娆美丽的风景, 却难以渡过细水长流. </p>
+<p>​        我做过一个思想实验, 在我的小时候, 如果问我, 别人拷问折磨我, 要我出卖祖国, 我会不会忍受住, 宁死不屈? 小时候的我肯定会斩钉截铁地说, 会! 但是, 如今, 扪心自问, 当滚烫的烙印印在身上的那一刻, 身上的剧痛真正的降临的时候, 我还敢不敢大放厥词? 我毫无疑问失败了, 在我学那些蔑视生死的英雄形象把头埋在水中突破我对死亡的恐惧却因为难受而把头突破了我双手的封锁的时候. 尽管不想承认, 大多时候, 我都是个嘴强王者, 哪个不畏生死的先烈是没有经历过比生死更难受的考验? 而我什么也没经受, 或者说,我经受的始终没有给我打破枷锁的勇气. </p>
+<p>​        说起来非常可笑, 在没有遇见你之前, 我基本把自己的感性丢得七零八落了, 哪怕到了如今, 仍感觉自己还活在”理性”的囚牢中, 我却仍固执守着曾经感性时期塑造的观念, 犹如失味之人肆意尝着饕餮盛宴, 却感受不到任何味道的享受. 曾经给我感性的诗与小说, 都难以唤起我的感性. 而”理性”的思考却要我更多考虑怎么做的问题, 而不是我想做什么. 最可悲的是, 想做什么并不应该想出来的, 而是应该由感性直接自发而来的, 而我却要剥离”理性”却寻找. 其实, 大学之后,我是一个非常虚无主义的人, 我想要”重估一切价值”, 却感觉什么都没有价值. 我的家庭的环境让我学会了冷眼看待别人的价值, 然后竭力撑开不同模式的外壳去应对, 但是内里却找不到自己核心的价值与感受, 麻木得连悲伤都感觉不到, 唯有理性撑着踯躅前行.</p>
+<p>​        感谢和你相遇! 让我起码找到了一丝感性, 让我在被虚无包围的心里多了一丝慰藉.</p>
+<h2 id="可爱的你…"><a href="#可爱的你…" class="headerlink" title="可爱的你…"></a>可爱的你…</h2><p>​        关于我的自白已经够多了, 虽然我觉得仍有更多的难以一时言语的地方, 但我们未来会有更多的时光去述说. 接下来说下我对你的想法吧.</p>
+<p>​        其实我对你的最初感觉是, 你是一个思想挺成熟的女生的, 没有大多同龄女生的娇气与盲目. 虽然对我而言, 娇气与盲目并不是贬义词, 只不过是走向成熟必不可少的阶段, 但你确是一个目标明确,自我定位明晰, 很突出的女生.  我觉得这是非常优秀的品质了, 因为大多人也会怨天尤人, 空喊口号, 而并不会为目标奋斗. 人的劣根性在于总是严于律人,宽于律己, 所以教训责怪别人起来也就一套接着一套的, 却从不思考着自己是否做到了. 所以, 你真的很优秀了, 这与学习能力无关, 纯粹是人之存在着(being)的能力. 虽然不可否认, 有时候或者现在, 你会因为与外界的对比中迷惘与失落, 但是我始终相信(而绝不是希望) , 你最终会找到自己的目标的!</p>
+<p>​        不过, 大学四年来说, 我也见过不少优秀的女性了,  却从未升起谈恋爱的念头. 因为我不想将理性诉诸于感情上, 因而也不会因为所谓的符合择偶要求而谈起恋爱. 所以, 这种感觉真的与你拥有何种品质并无绝对关系, 想就想了, 无理由可言. 我曾想过, 如果有特定的择偶标准, 那么是否如果存在着另一个同样符合标准的人, 那么爱情便可轻易地转移? 我想, 现实中大多情况是的, 但是我相信, 真正的爱情并不是. 因为对一些人来说, 构建爱情的不是标准, 而是更加内在独特的联结, 比如回忆,经历等. 对我而言, 如果一个人失忆并性情大变了, 那维持所谓”爱情” 的只剩责任了, 爱情也名存实亡.</p>
+<p>​        我知道,在现在与未来, 仍存在着各种烦恼与阻挠, 或职业, 或距离, 或家庭, 但是恰如完美的鹅卵石需要水流细砂磨砺, 我希望, 我们在未来能够共同面对, 互相理解, 抛开偏见, 悬置猜疑, 让我们的情感羁绊越来越深, 成为我们一起成长,一起磨合的见证!将来, 我们会看遍风景妖娆, 也渡过细水长流!</p>
+<p><img src="love-02.jpg" alt></p>
+<p>​        <strong>520到了!  恋爱快乐, 居!</strong></p>
+
+            </div>
+            <hr/>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        <p class="reprint-tip">
+            <i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;
+            <span>转载规则</span>
+        </p>
+        
+            <div class="center-align">
+                <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh">
+                    <img alt=""
+                         style="border-width:0"
+                         src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+                </a>
+            </div>
+            <br/>
+            <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
+                  property="dct:title" rel="dct:type">
+                    《来自520天的一封情书》
+                </span> 由
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/08/31/lai-zi-520-tian-de-yi-feng-qing-shu/" property="cc:attributionName"
+               rel="cc:attributionURL">
+                Haoming Li
+            </a> 采用
+            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh">
+                知识共享署名 4.0 国际许可协议
+            </a>进行许可。
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2019/08/31/lai-zi-520-tian-de-yi-feng-qing-shu/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="来自520天的一封情书">
+                        
+                        <span class="card-title">来自520天的一封情书</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            来自520天的一封情书  
+      
+
+
+			
+				console.error("Error: [hexo-tag-aplayer] Specified asset file not found (medias/music/def
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-31
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            Haoming Li
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/情书/" target="_blank">
+                        <span class="chip bg-color">情书</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/08/31/lai-zi-520-tian-de-yi-feng-qing-shu/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="来自520天的一封情书">
+                        
+                        <span class="card-title">来自520天的一封情书</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            来自520天的一封情书  
+      
+
+
+			
+				console.error("Error: [hexo-tag-aplayer] Specified asset file not found (medias/music/def
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-31
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            Haoming Li
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/情书/" target="_blank">
+                        <span class="chip bg-color">情书</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fa fa-list"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).slideUp(500);
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).slideDown(500);
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+    
+
+</main>
+
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由&copy;<a href="https://kevenlee229.github.io/" target="_blank">HaomingLi</a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 的
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
+
+			
+			
+				<br>
+				
+				<span id="busuanzi_container_site_pv" style='display:none'>
+				</span>
+                
+                
+                <span id="busuanzi_container_site_uv" style='display:none'>
+                </span>
+                
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/KevenLee229" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:kevenlee229@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=157787184" class="tooltipped" data-tooltip="QQ联系我: 157787184" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+    <script src="/libs/others/clicklove.js"></script>
+
+
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+
+
+</body>
+</html>
